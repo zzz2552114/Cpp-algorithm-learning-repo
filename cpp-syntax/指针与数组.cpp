@@ -62,5 +62,6 @@ int main()
         }
     }
     cout << arr1[2][1] << endl;
+    delete[] arr1;
     // ³É¹¦ÁË
 }
