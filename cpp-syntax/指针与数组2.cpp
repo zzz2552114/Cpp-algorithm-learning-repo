@@ -12,4 +12,7 @@ int main()
     {
         cout << arrf()[i] << endl;
     }
+    int i = 1;
+    int *p = &i;
+    cout << (p[1]==*(p+1)) << endl; // 任何指针都有p[n]语法糖 
 }
