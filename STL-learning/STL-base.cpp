@@ -67,7 +67,7 @@ int main(){
     // 4.priority_queue
     priority_queue<int> pque1;// 尖括号里是：类型，容器，比较器
     priority_queue<int, vector<int>, greater<int>> pque;
-    // 优先队列相当于遵循某种排序的队列
+    // 优先队列相当于遵循某种排序的stack
     pque.push(1);
     pque.emplace(200);
     pque.emplace(10086);
